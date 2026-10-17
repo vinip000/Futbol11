@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "olD2EY0yXRE=",
+  "success": true,
+  "projectFilePath": "D:\\futbol11\\backend\\Football11.Api\\Football11.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.21\\microsoft.aspnetcore.openapi.9.0.21.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.openapi\\1.6.31\\microsoft.openapi.1.6.31.nupkg.sha512"
+  ],
+  "logs": []
+}

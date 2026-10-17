@@ -1,0 +1,91 @@
+.app {
+  min-height: 100vh;
+  background: #101820;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+header p {
+  color: #aaa;
+}
+
+.game {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.game-info {
+  margin-bottom: 25px;
+}
+
+.field {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  background: repeating-linear-gradient(
+    to bottom,
+    #226b43 0%,
+    #226b43 12.5%,
+    #28794b 12.5%,
+    #28794b 25%
+  );
+  border: 3px solid white;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.center-line {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  border-top: 2px solid #ffffff80;
+}
+
+.center-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25%;
+  aspect-ratio: 1;
+  border: 2px solid #ffffff80;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.position {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 48px;
+  height: 48px;
+  background: white;
+  color: #183b2a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  box-shadow: 0 4px 10px #0005;
+}
+
+button {
+  margin-top: 25px;
+  background: #ffd100;
+  color: #202020;
+  padding: 14px 32px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #ffee32;
+}
